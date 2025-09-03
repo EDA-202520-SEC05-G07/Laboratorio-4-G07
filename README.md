@@ -28,8 +28,8 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
-1. Nombre del estudiante No. 1, Correo electrónico del estudiante No. 1 Uniandes, Funcionalidad propiedad del estudiante No. 1.
-2. Nombre del estudiante No. 2, Correo electrónico del estudiante No. 2 Uniandes, Funcionalidad propiedad del estudiante No. 2.
+1. Daniel Alberto Quintero Penuela, da.quinterop1@uniandes.edu.co 202420868, Funciones de logic.py
+2. Juan Felipe Martinez Mora , jf.martinezm1@uniandes.edu.co, Funciones del view.py
 3. Nombre del estudiante No. 3, Correo electrónico del estudiante No. 3 Uniandes, Funcionalidad propiedad del estudiante No. 3.
 
 [Volver al inicio](#laboratorio-4)

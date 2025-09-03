@@ -64,8 +64,16 @@ def load_data(control):
 
 
 def print_books_to_read(results):
-    # TODO Imprimir los libros por leer
-    pass
+    temp = []
+    while not st.is_empty(results):
+        temp.append(st.pop(results))
+    print("Libros por leer:", len(temp))
+    i = 0
+    while i < len(temp):
+        item = temp[i]
+        print(item['book_id'])
+        i += 1
+
 
 
 def print_tests_results(queue_results, stack_results):
@@ -83,7 +91,10 @@ def print_tests_results(queue_results, stack_results):
 
     print("\nTiempos de ejecución para Pila: \n")
 
-    # TODO Imprimir los resultados de las pruebas de rendimiento de la pila
+    print("Tiempo de ejecución para push:", f"{stack_results['push_time']:.3f}", "[ms]")
+    print("Tiempo de ejecución para top:", f"{stack_results['top_time']:.3f}", "[ms]")
+    print("Tiempo de ejecución para pop:", f"{stack_results['pop_time']:.3f}", "[ms]")
+
 
 
 # Se crea el controlador asociado a la vista
@@ -121,7 +132,9 @@ def main():
 
             result = logic.get_user_position_on_queue(
                 control, int(user_id), int(book_id))
-            # TODO Imprimir la posición del usuario en la cola
+            result = logic.get_user_position_on_queue(control, int(user_id), int(book_id))
+            print("Posición en la cola:", result)
+P
 
         elif int(inputs[0]) == 4:
             size = input("Indique tamaño de la muestra: ")
